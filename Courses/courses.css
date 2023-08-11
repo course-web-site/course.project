@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+      background-color: #2c3e50;
+      margin: 0;
+      padding: 0;
+      font-family: "Montserrat", sans-serif;
+      color: white;
+  }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      background: linear-gradient(-135deg, #4caf50, teal);
+      font-family: "Montserrat", sans-serif;
+      padding: 0 20px;
+    }
+    
+    .heading {
+      display: flex;
+      align-items: center;
+    }
+    
+    .heading a {
+      text-decoration: none;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+    
+    .topImage {
+      width: 30px;
+      height: 40px;
+      margin-right: 10px;
+    }
+    
+    .title1 {
+      font-size: 18px;
+      font-family: 'MuseoModerno', cursive;
+      cursor: pointer;
+    }
+    
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      align-items: center; 
+    }
+    
+    .nav-links li {
+      text-align: center;
+    }
+    
+    .nav-links li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      padding: 8px 0;
+      transition: background-color 0.3s ease;
+    }
+    
+    .nav-links li a:hover:not(.active) {
+      background-color: lightseagreen;
+      border-radius: 5px;
+    }
+    
+    .nav-links li a.active {
+      background-color: teal;
+      border-radius: 5px;
+    }
+    .elements{
+        text-align: center;
+        font-family: 'Montserrat Alternates', sans-serif ;
+        letter-spacing: 2px;
+        line-height: 18px;
+        word-spacing: 5px;
+    }
+    .coursePics{
+        width: 25%;
+        height:200px;
+    }
+    .searchBar{
+        position: relative;
+        right: -80%;
+    }
+    #go{
+        height: 35px;
+        width: 55px;
+        border-radius: 30px;
+    }
+    #search-bar{
+        height: 35px;
+        width: 200px;
+        border-radius: 30px;
+    }
+    #course-list {
+        cursor: pointer;
+    }
+  
