@@ -1,0 +1,136 @@
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* General styling for the body */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #2c3e50;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+/* Navigation bar styling */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: linear-gradient(-135deg, #4caf50, teal); /* Use the same gradient as the login form */
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.topImage {
+  width: 30px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.title1 {
+  font-size: 18px;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-links li {
+  text-align: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 8px 0;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover:not(.active) {
+  background-color: lightseagreen;
+  border-radius: 5px;
+}
+
+.nav-links li a.active {
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+
+.myLogin {
+  width: 400px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(9, 128, 0, 0.288);
+  position: relative;
+  top: 10rem;
+  left: 35rem;
+  display: none; /* this is to hide the login form */
+}
+
+.myLogin .title {
+  color: #fff;
+  line-height: 100px;
+  background: linear-gradient(-135deg, #4caf50, teal);
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.myLogin form {
+  padding: 10px 30px 50px 30px;
+}
+
+.myLogin form .epbox {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.myLogin form .epbox input {
+  height: 100%;
+  width: 100%;
+  font-size: 17px;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+.myLogin form .epbox label {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  /* transform: translateY(-50%); */
+  pointer-events: none;
+}
+
+.myLogin form .epbox input:focus {
+  border-color: teal;
+}
+
+.myLogin form .Forgotpassword {
+  color: teal;
+  margin: 10px 0 0 10px;
+}
+
+.myLogin form .epbox input[type="submit"] {
+  color: #fff;
+  background: linear-gradient(-135deg, #4caf50, teal);
+  font-size: 18px;
+  font-weight: 500px;
+}
